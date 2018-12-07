@@ -2,6 +2,23 @@
     text-align: center;
 }
 
+body {
+    background-color: black;
+}
+
+label {
+    color: white;
+    background-color: black;
+    float:left;
+    position: relative;
+    left: 21px;
+}
+
+.buttons {
+    border: white 10px solid;
+    background-color: white;
+}
+
 #bigDiv {
     width: 400px;
     height: 200px;
@@ -13,11 +30,35 @@
 }
 
 .container {
-    background-color: blue;
+    background-color: black;
     height: 400px;
     width: 1000px;
 }
 
+#buttonsDiv {
+    margin-top: 30px;
+}
+
+#smallDiv {
+    margin-top: 30px;
+}
+
+button {
+    padding: 0px 10px 0px 10px;
+    margin-left: 20px;
+}
+
+#imgDiv {
+    color: white;
+}
+
+#text {
+    color: white;
+}
+
+#bigDiv {
+    margin-top: 30px;
+}
 
 
 
